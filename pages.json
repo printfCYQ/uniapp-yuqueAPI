@@ -1,0 +1,61 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		}, {
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarTitleText": "关于"
+			}
+		},{
+			"path": "pages/articleList/articleList",
+			"style": {
+				"navigationBarTitleText": "关于"
+			}
+		},{
+			"path": "pages/articleDetail/articleDetail",
+			"style": {
+				"navigationBarTitleText": "关于"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#f0ad4e",
+		"backgroundColor": "#007aff"
+	},
+	"tabBar": {
+		"color": "#666",
+		"selectedColor": "#000",
+		"borderStyle": "black",
+		"backgroundColor": "#f0ad4e",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-fill.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/search/search",
+				"iconPath": "static/tabbar/search.png",
+				"selectedIconPath": "static/tabbar/search-fill.png",
+				"text": "搜索"
+			},
+			{
+				"pagePath": "pages/about/about",
+				"iconPath": "static/tabbar/about.png",
+				"selectedIconPath": "static/tabbar/about-fill.png",
+				"text": "关于"
+			}
+		]
+	}
+}
